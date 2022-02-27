@@ -41,8 +41,8 @@ export default {
       "@storyblok/nuxt",
       {
         accessToken: process.env.STORYBLOK_PREVIEW,
-        cacheProvider: "memory",
-      },
+        cacheProvider: 'memory'
+      }
     ],
   ],
 
@@ -53,5 +53,11 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-nested': {},
+      },
+    },
+  },
 }
