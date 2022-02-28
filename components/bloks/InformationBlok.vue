@@ -25,6 +25,7 @@
 
 <style lang="postcss">
 .information {
+  text-shadow: 0px 1px 1px hsl(38deg 15% 95%);
   h1 {
     @apply uppercase mb-4 font-bold font-display text-4xl;
   }
@@ -39,7 +40,7 @@
   }
 
   p {
-    @apply text-lg mb-8;
+    @apply text-lg mb-8 opacity-70;
   }
 }
 </style>
