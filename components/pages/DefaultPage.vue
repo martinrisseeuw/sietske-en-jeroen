@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-full w-full">
     <component
       :is="item.component"
       v-for="item in blok.body"

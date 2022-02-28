@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <div class="h-screen w-screen bg-black relative flex overlay">
-      <img class="w-full h-full object-cover absolute inset-0 hidden sm:block" :src="blok.image.filename" />
-      <img class="w-full h-full object-cover absolute inset-0 sm:hidden" :src="blok.imageMobile.filename" />
+  <div class="h-full w-full bg-black relative flex overlay min-h-screen">
+    <img class="w-full h-full object-cover absolute inset-0 hidden sm:block" :src="blok.image.filename" />
+    <img class="w-full h-full object-cover absolute inset-0 sm:hidden" :src="blok.imageMobile.filename" />
 
-      <div class="z-20 relative m-auto text-white content text-center px-6">
-        <div class="mb-2 font-display" v-html="title" />
-        <div class="font-display text-4xl" v-html="subText" />
-      </div>
+    <div class="z-20 relative m-auto text-white content text-center px-6">
+      <div class="mb-2 font-display" v-html="title" />
+      <div class="text-xl" v-html="subText" />
     </div>
   </div>
 </template>
@@ -34,7 +32,7 @@
 <style lang="postcss">
 .content {
   h1 {
-    @apply text-8xl text-white font-bold;
+    @apply text-6xl text-white font-bold;
   }
 }
 .overlay {

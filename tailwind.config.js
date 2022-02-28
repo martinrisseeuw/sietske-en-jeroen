@@ -7,9 +7,21 @@
  module.exports = {
   theme: {
     fontFamily: {
-      sans: ['-apple-system', 'BlinkMacSystemFont'],
-      display: ['AmaticSC', 'Georgia', 'Cambria'],
+      sans: ['Poppins', '-apple-system', 'BlinkMacSystemFont'],
+      display: ['JuliusSansOne', 'Georgia', 'Cambria'],
     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#fff',
+      black: '#000',
+      creme: {
+        100: '#EAE6E2',
+        500: '#867464',
+      },
+    }
   }
+
+  
  }
 

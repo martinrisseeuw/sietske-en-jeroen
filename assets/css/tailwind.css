@@ -2,19 +2,27 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 @font-face {
-  font-family: 'AmaticSC';
+  font-family: 'JuliusSansOne';
   font-weight: 400;
   font-style: normal;
-  src: url('../fonts/AmaticSC-Regular.ttf');
+  src: url('../fonts/JuliusSansOne-Regular.ttf');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'AmaticSC';
-  font-weight: 700;
+  font-family: 'Poppins';
+  font-weight: 400;
   font-style: normal;
-  src: url('../fonts/AmaticSC-Bold.ttf');
+  src: url('../fonts/Poppins-Regular.woff');
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Poppins-SemiBold.woff');
+  font-display: swap;
+}

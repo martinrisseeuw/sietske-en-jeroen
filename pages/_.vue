@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="w-full h-full bg-creme-100">
     <component
       :is="story.content.component"
       v-if="story.content.component"
