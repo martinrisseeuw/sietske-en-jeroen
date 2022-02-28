@@ -18,6 +18,12 @@ export default {
 </script>
 
 <style lang="postcss">
+body,
+html {
+  @apply bg-creme-100;
+}
+
+
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.25s;
