@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:h-full w-full relative information grid lg:grid-cols-2 h-full relative">
+  <div class="lg:h-full w-full relative information grid lg:grid-cols-2 h-full">
     <img class="w-full object-cover lg:h-screen lg:sticky top-0" :src="blok.image.filename" />
     <div class="flex p-6 md:p-16 border-l border-creme-500">
       <div class="leading-tight m-auto opacity-75 max-w-lg" v-html="text" />
