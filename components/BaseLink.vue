@@ -1,5 +1,5 @@
 <template>
-  <component :is="tag" v-bind="props" class="border-t-2 border-transparent text-creme-500 whitespace-nowrap">
+  <component :is="tag" v-bind="props" class="border-b-2 border-transparent text-creme-500 whitespace-nowrap">
     <slot />
   </component>
 </template>
@@ -40,6 +40,6 @@ export default {
 
 <style lang="postcss">
 .nuxt-link-active  {
-  @apply border-t-2 border-creme-500;
+  @apply border-b-2 border-creme-500;
 }
 </style>
